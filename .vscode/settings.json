@@ -3,6 +3,11 @@
 	"explorer.fileNesting.patterns": {
 		"package.json": "package-lock.json"
 	},
+	"files.readonlyInclude": {
+		".agents/skills/**": true,
+		"AGENTS.md": true,
+		"package-lock.json": true
+	},
 	"js/ts.tsdk.path": "./node_modules/typescript/lib",
 	"[javascript]": {
 		"editor.defaultFormatter": "dprint.dprint"

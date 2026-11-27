@@ -1,0 +1,4 @@
+{
+	"targets": ["codexcli"],
+	"features": ["rules", "skills"]
+}
