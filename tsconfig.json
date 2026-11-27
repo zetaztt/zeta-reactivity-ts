@@ -4,7 +4,7 @@
 		"lib": [
 			"ES2022"
 		],
-		"module": "NodeNext",
+		"module": "ESNext",
 		"paths": {
 			"@zeta/reactivity": [
 				"./src/index.ts"

@@ -13,11 +13,21 @@
 	"scripts": {
 		"prebuild": "rimraf dist",
 		"build": "tsc",
+		"lint": "eslint .",
+		"format": "dprint fmt",
+		"format:check": "dprint check",
 		"test": "tsx --test \"test/*.test.ts\""
 	},
 	"devDependencies": {
+		"@dprint/json": "^0.26.0",
+		"@dprint/typescript": "^0.101.0",
+		"@typescript-eslint/eslint-plugin": "^8.74.0",
+		"@typescript-eslint/parser": "^8.74.0",
+		"dprint": "^0.65.0",
+		"eslint": "^10.15.0",
+		"eslint-plugin-unused-imports": "^4.4.1",
 		"rimraf": "^6.1.4",
 		"tsx": "^4.23.15",
-		"typescript": "^7.0.2"
+		"typescript": "^6.0.3"
 	}
 }

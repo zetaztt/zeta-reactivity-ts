@@ -1,0 +1,20 @@
+{
+	"lineWidth": 120,
+	"indentWidth": 4,
+	"useTabs": true,
+	"newLineKind": "lf",
+	"typescript": {
+		"quoteStyle": "preferDouble",
+		"semicolons": "prefer",
+		"trailingCommas": "onlyMultiLine",
+		"module.sortImportDeclarations": "maintain",
+		"module.sortExportDeclarations": "maintain",
+		"importDeclaration.sortNamedImports": "maintain",
+		"exportDeclaration.sortNamedExports": "maintain"
+	},
+	"json": {
+		"packageJson.applyConventions": false
+	},
+	"excludes": ["package-lock.json"],
+	"plugins": ["npm:@dprint/typescript", "npm:@dprint/json"]
+}
