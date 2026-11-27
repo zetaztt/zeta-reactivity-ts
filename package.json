@@ -1,0 +1,23 @@
+{
+	"name": "@zeta/reactivity",
+	"version": "0.0.0-dev.0",
+	"description": "一个与框架无关的 TypeScript 细粒度响应式库。",
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"prebuild": "rimraf dist",
+		"build": "tsc",
+		"test": "tsx --test \"test/*.test.ts\""
+	},
+	"devDependencies": {
+		"rimraf": "^6.1.4",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	}
+}
